@@ -7,6 +7,8 @@ import Hero from "./components/hero";
 import PortfolioImages from "./components/portfolioImages";
 import PortfolioStart from "./components/portfolioStart";
 import Footer from "./components/footer"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {

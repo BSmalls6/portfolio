@@ -1,5 +1,15 @@
 import React, { Component } from 'react'
-import Dropdown from './dropdown'
+// import Dropdown from './dropdown'
+import Button from 'react-bootstrap/Button';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Form from 'react-bootstrap/Form';
+import Dropdown from './dropdown';
+
+// import FormControl from 'react-bootstrap/FormControl';
+
+
+
 
 export default class Header extends Component {
    
@@ -9,32 +19,19 @@ export default class Header extends Component {
             backgroundColor: '#001D38'
           };
         return (
+    
 
-
-
-            <div className="navbar fixed-top navbar-dark" style={divStyle} >
-        <a class="navbar-brand" href="#">BLS</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-    <li>Get in Touch</li>
-
-      <li>
-  <div class="dropdown show">
-  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-  </a>
-<div class="dropdown">
-  <button class="dropbtn"><Dropdown/></button>
- 
-</div>
-</div>
-      </li>
-    </ul>
-  </div>
-      </div>
-
+<Navbar  variant="dark" sticky="top" style={divStyle}>
+    <Navbar.Brand href="#home">BLS</Navbar.Brand>
+    <Nav className="mr-auto">
+      <Nav.Link href="#home"></Nav.Link>
+      <Nav.Link href="#features"></Nav.Link>
+      <Nav.Link href="#pricing"></Nav.Link>
+    </Nav>
+    <Form inline>
+      <Button variant="outline-info"><Dropdown></Dropdown></Button>
+    </Form>
+  </Navbar>
 
 
 
