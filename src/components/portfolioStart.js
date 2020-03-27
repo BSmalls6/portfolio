@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class PortfolioStart extends Component {
     render() {
         return (
-            <div className="portfolio_area portfolio_bg_1">
+            <div className="portfolio_area portfolio_bg_1" id="portfolio">
             <div className="container">
               <div className="row">
                 <div className="col-xl-12">

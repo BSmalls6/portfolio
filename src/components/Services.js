@@ -8,7 +8,7 @@ export default class Hero extends Component {
     render() {
       return (
   
-        <div className="service_area">
+        <div className="service_area" id="services">
           <div className="container">
             <div className="row">
               <div className="col-xl-12">

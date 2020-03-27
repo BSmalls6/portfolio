@@ -13,19 +13,18 @@ export default class Footer extends Component {
                     <div className="col-xl-6 col-md-6">
                         <div className="menu_links">
                             <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-xl-6 col-md-6">
                         <div className="socail_links">
                             <ul>
-                                <li><a href="#"> <i className="fa fa-facebook"></i> </a></li>
-                                <li><a href="#"> <i className="fa fa-twitter"></i> </a></li>
-                                <li><a href="#"> <i className="fa fa-instagram"></i> </a></li>
-                                <li><a href="#"> <i className="fa fa-google-plus"></i> </a></li>
+                                <li><a href='https://www.linkedin.com/in/brennan-smallwood-422155a1/' target="_blank" rel="noopener noreferrer"> <i className="fa fa-linkedin"></i> </a></li>
+                                <li><a href='https://github.com/BSmalls6' target="_blank" rel="noopener noreferrer"> <i className="fa fa-github"></i> </a></li>
+                               
                             </ul>
                         </div>
                     </div>

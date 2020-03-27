@@ -16,13 +16,13 @@ export default class Hero extends Component {
                       <div className="single_slider  d-flex align-items-center slider_bg_1">
                         <div className="shap_pattern d-none d-lg-block">
                         </div>
-                        <div className="social_links social_icons">
+                        {/* <div className="social_links social_icons">
                           <ul>
                             <li><a href="https://www.linkedin.com/in/brennan-smallwood-422155a1/"> <i className="fa fa-linkedin" /> </a></li>
                             <li><a href="https://github.com/BSmalls6"> <i className="fa fa-github" /> </a></li>
                            
                           </ul>
-                        </div>
+                        </div> */}
                         <div className="container">
                           <div className="row align-items-center">
                             <div className="col-lg-12">

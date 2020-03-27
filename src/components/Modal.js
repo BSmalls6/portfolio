@@ -8,15 +8,11 @@ import Button from 'react-bootstrap/Button';
 
 
 
-export default class Header extends Component {
+export default class modal extends Component {
    
    
     render() {
-        const divStyle = {
-            backgroundColor: 'transparent',
-            borderColor: 'transparent',
-            // marginRight: '10px'
-          };
+        
 
           const [show, setShow] = useState(false);
 
