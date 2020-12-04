@@ -12,30 +12,28 @@ import Dropdown from './dropdown';
 
 
 export default class Header extends Component {
-   
-   
+
+
     render() {
         const divStyle = {
             backgroundColor: '#001D38'
-          };
+        };
         return (
-    
-
-<Navbar  variant="dark" sticky="top" style={divStyle}>
-    <Navbar.Brand href="#home">BLS</Navbar.Brand>
-    <Nav className="mr-auto">
-      <Nav.Link href="#home"></Nav.Link>
-      <Nav.Link href="#features"></Nav.Link>
-      <Nav.Link href="#pricing"></Nav.Link>
-    </Nav>
-    <Form inline>
-      <Button variant="outline-info"><Dropdown></Dropdown></Button>
-    </Form>
-  </Navbar>
 
 
-
-
+            <Navbar variant = "dark" sticky = "top" style = { divStyle }>
+                <Navbar.Brand href = "#home" > Woodworks </Navbar.Brand> 
+                    <Nav className = "mr-auto">
+                        <Nav.Link href = "#home"> </Nav.Link>
+                        <Nav.Link href = "#features"> </Nav.Link>
+                        <Nav.Link href = "#pricing" > </Nav.Link> 
+                    </Nav> 
+                <Form inline>
+                     <Button variant = "outline-info"> 
+                        <Dropdown> </Dropdown>
+                     </Button >
+                </Form> 
+            </Navbar>
         )
     }
 }

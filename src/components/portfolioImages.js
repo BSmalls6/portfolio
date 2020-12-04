@@ -17,7 +17,7 @@ export default class PortfolioImages extends Component {
             <div className="col-xl-5 col-md-5">
               <div className="single_Portfolio">
                 <div className="portfolio_thumb">
-                  <img src={favrimg} alt="favrimg" />
+                 <a href="/favr"><img src={favrimg} alt="favrimg" /></a>
                 </div>
                 {/* <a href="https://farvbarter.herokuapp.com/" target="_blank" className="popup popup-image" /> */}
                 <div className="portfolio_hover">
@@ -88,9 +88,9 @@ export default class PortfolioImages extends Component {
                 {/* <a href="../img/portfolio/5.png" className="popup popup-image" /> */}
                 <div className="portfolio_hover">
                   <div className="title">
-                    <h3>Take Notes</h3>
+                    <h3>Get in Shape</h3>
                     <h3>Development</h3>
-                    <h3><a style={{color:"white"}} href='https://note-taker0712.herokuapp.com/' target='_blank' rel="noopener noreferrer">Deployed</a> | <a style={{color:"white"}} href='https://github.com/BSmalls6/homework_10' target='_blank' rel="noopener noreferrer">Github</a></h3>
+                    <h3><a style={{color:"white"}} href='https://fitness-tracker-uwbc-hw13.herokuapp.com/' target='_blank' rel="noopener noreferrer">Deployed</a> | <a style={{color:"white"}} href='https://github.com/BSmalls6/fitness_tracker-13/' target='_blank' rel="noopener noreferrer">Github</a></h3>
                   </div>
                 </div>
               </div>
