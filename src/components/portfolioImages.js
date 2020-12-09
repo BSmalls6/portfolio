@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react'
-import loungeImg from '../img/lounge.png'
+import loungeImg from '../img/storefront.png'
 import writingImg from '../img/writingthumb.png'
 import favrimg from '../img/favrimg.png'
 import budgetimg from '../img/budget.png'
@@ -40,10 +40,10 @@ export default class PortfolioImages extends Component {
                 {/* <a href="https://uwbootproject2.herokuapp.com/" target="_blank" className="popup popup-image" /> */}
                 <div className="portfolio_hover">
                   <div className="title">
-                    <h3>Lounge</h3>
+                    <h3>StoreFront</h3>
 
                     <h3>Development | Design</h3>
-                    <h3><a style={{color:"white"}} href='https://uwbootproject2.herokuapp.com/' target='_blank' rel="noopener noreferrer">Deployed</a> | <a style={{color:"white"}} href='https://github.com/BSmalls6/lounge_project' target='_blank' rel="noopener noreferrer">Github</a></h3>
+                    <h3><a style={{color:"white"}} href='https://store-front-best-buy.herokuapp.com/' target='_blank' rel="noopener noreferrer">Deployed</a> | <a style={{color:"white"}} href='https://github.com/BSmalls6/StoreFront' target='_blank' rel="noopener noreferrer">Github</a></h3>
 
 
                   </div>
@@ -88,7 +88,7 @@ export default class PortfolioImages extends Component {
                 {/* <a href="../img/portfolio/5.png" className="popup popup-image" /> */}
                 <div className="portfolio_hover">
                   <div className="title">
-                    <h3>Get in Shape</h3>
+                    <h3>Take and Save Notes</h3>
                     <h3>Development</h3>
                     <h3><a style={{color:"white"}} href='https://fitness-tracker-uwbc-hw13.herokuapp.com/' target='_blank' rel="noopener noreferrer">Deployed</a> | <a style={{color:"white"}} href='https://github.com/BSmalls6/fitness_tracker-13/' target='_blank' rel="noopener noreferrer">Github</a></h3>
                   </div>

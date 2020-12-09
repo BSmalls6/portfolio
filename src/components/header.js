@@ -22,7 +22,7 @@ export default class Header extends Component {
 
 
             <Navbar variant = "dark" sticky = "top" style = { divStyle }>
-                <Navbar.Brand href = "#home" > Woodworks </Navbar.Brand> 
+                <Navbar.Brand href = "#home" > BLS </Navbar.Brand> 
                     <Nav className = "mr-auto">
                         <Nav.Link href = "#home"> </Nav.Link>
                         <Nav.Link href = "#features"> </Nav.Link>
