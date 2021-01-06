@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react'
-import backgroundimage1 from "../img/background.jpg"
+import backgroundimage1 from "../../img/background.jpg"
 var sectionStyle = {
   
   backgroundImage: `url(${backgroundimage1})`
@@ -28,7 +28,7 @@ export default class Hero extends Component {
                             <div className="col-lg-12">
                               <div className="slider_text text-center">
                                 <h3 style={{color:"white"}}>
-                                  Brennan Smallwood
+                                  WoodWorks Digital
                                 </h3>
                                 <span style={{color:"white"}}>Handcrafted Design and Development ---</span>
                               </div>

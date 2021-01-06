@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import icon1 from "../img/svg_icon/1.svg"
-import icon2 from "../img/svg_icon/2.svg"
-import icon3 from "../img/svg_icon/3.svg"
+import icon1 from "../../img/svg_icon/1.svg"
+import icon2 from "../../img/svg_icon/2.svg"
+import icon3 from "../../img/svg_icon/3.svg"
 
 
 export default class Hero extends Component {

@@ -1,8 +1,8 @@
 
 import React, { Component } from 'react'
-import resume from '../img/resume.pdf'
-import grid from '../img/about/color_grid.png'
-import me from '../img/about/me.jpg'
+import resume from '../../img/resume.pdf'
+import grid from '../../img/about/color_grid.png'
+import me from '../../img/about/me.jpg'
 export default class About extends Component {
     render() {
         return (
@@ -16,9 +16,9 @@ export default class About extends Component {
                 <div className="col-xl-6 col-md-6">
                   <div className="about_e_details">
                     <h3>About me</h3>
-                    <p>Digital creative capable of researching, designing and developing software, content and more.  Certifications in full-stack development and UX design, as well as a bachelors in digital communication. HTML, CSS, ECMA6, Node.JS, React and more. My strengths include creative problem solving, leadership and idea generation.  </p>
+                    <p>Digital creative capable of researching, designing and developing software, content, websites and more. Certifications in full-stack development and UX design, as well as a bachelors in digital communication. HTML/CSS, Javascript, Adobe Creative Cloud and more. My strengths include creative problem solving and multimedia content creation. Over 100 unique marketing websites designed and built.</p>
                     <div className="download_cv">
-                      <a className="boxed-btn3" href={resume} download>Download Resume</a>
+                      <a className="boxed-btn3" href='/about'>Learn More</a>
                     </div>
                   </div>
                 </div>

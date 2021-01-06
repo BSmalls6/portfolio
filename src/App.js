@@ -1,30 +1,33 @@
 import React from "react";
-import { BrowserRouter as Router} from "react-router-dom";
-import Header from "./components/header";
-import Services from "./components/Services";
-import About from "./components/about";
-import Hero from "./components/hero";
-import PortfolioImages from "./components/portfolioImages";
-import PortfolioStart from "./components/portfolioStart";
-import Footer from "./components/footer"
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Link, Switch} from "react-router-dom";
+
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Homepage from './components/homepage/homepage'
+import Design from './pages/interior/design'
+import About from './pages/interior/about'
+
 
 
 
 function App() {
   return (
     <Router>
-      <div>
-        <Header />
-        <Hero />
-        <Services />
-        <PortfolioStart />
-        <PortfolioImages />
-        <About />
-        <Footer/>
+      <main>
+        <Switch>
+        <Route path='/' exact component={Homepage}>
+        </Route>
+        <Route path='/portfolio' exact component={Design}>
+        </Route>
+
+        <Route path='/about' exact component={About}>
+        </Route>
+        </Switch>
+       
+         
+       
 
         
-      </div>
+      </main>
     </Router>
   );
 }
