@@ -68,7 +68,7 @@ export default class Design extends Component {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Website Design and Content</small>
+      <small className="text-muted">Video Production</small>
     </Card.Footer>
   </Card>
 </CardDeck>

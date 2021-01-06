@@ -30,7 +30,7 @@ export default class Hero extends Component {
                                 <h3 style={{color:"white"}}>
                                   WoodWorks Digital
                                 </h3>
-                                <span style={{color:"white"}}>Handcrafted Design and Development ---</span>
+                                <span style={{color:"white"}}>Handcrafted Design and Development</span>
                               </div>
                             </div>
                           </div>

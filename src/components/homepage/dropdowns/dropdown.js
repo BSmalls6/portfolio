@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import Dropdown from 'react-bootstrap/Dropdown';
 import styleSheet from './style.css';
 import {
-  BrowserRouter as Link
+  BrowserRouter as Route, Link, Router
   // Switch,
   // Route,
   
@@ -33,15 +33,15 @@ export default class Header extends Component {
         return (
     
 
-<Dropdown className="menu" style={styleSheet}>
-  <Dropdown.Toggle variant="secondary" id="dropdown-basic" style={styleSheet}>
+<Dropdown className="menu" style={divStyle}>
+  <Dropdown.Toggle variant="secondary" id="dropdown-basic" style={divStyle}>
     Menu
   </Dropdown.Toggle>
 
   <Dropdown.Menu style={menuStyle}>
   <Dropdown.Item><Link to={'/about'}>About</Link></Dropdown.Item>
 
-  <Dropdown.Item><Link to={'/portfolio'}>Porfolio</Link></Dropdown.Item>
+  <Dropdown.Item><Link to={'/portfolio'}>Portfolio</Link></Dropdown.Item>
   <Dropdown.Item><Link to={'/contact'}>Contact</Link></Dropdown.Item>
 
   
