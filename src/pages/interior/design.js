@@ -52,7 +52,7 @@ export default class Design extends Component {
     <Card.Body>
       <Card.Title>Favr</Card.Title>
       <Card.Text>
-        A custom, from scratch full-stack application that connects people looking to barter goods and services without the use of money
+        A custom, from scratch full-stack application that connects people looking to barter goods and services without the use of money.
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -64,7 +64,7 @@ export default class Design extends Component {
     <Card.Body>
       <Card.Title>Animated Educational Videos</Card.Title>
       <Card.Text>
-        I Researched, wrote and produced a series of five animated videos for Medical continuing education
+        I Researched, wrote and produced a series of five animated videos for Medical continuing education.
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -81,7 +81,7 @@ export default class Design extends Component {
     <Card.Body>
       <Card.Title>Marketing-focused Blog Content</Card.Title>
       <Card.Text>
-        I wrote a series of blog posts on best-practices regarding video content on websites
+        I wrote a series of blog posts on best-practices regarding video content on websites.
       </Card.Text>
     </Card.Body>
     <Card.Footer>
