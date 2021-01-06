@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react'
-import resume from '../../img/resume.pdf'
 import grid from '../../img/about/color_grid.png'
 import me from '../../img/about/me.jpg'
 export default class About extends Component {

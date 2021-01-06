@@ -3,10 +3,10 @@ import React, { Component } from 'react'
 import Dropdown from 'react-bootstrap/Dropdown';
 import styleSheet from './style.css';
 import {
-  BrowserRouter as Router,
+  BrowserRouter as Link
   // Switch,
   // Route,
-  Link
+  
 } from 'react-router-dom'
 
 

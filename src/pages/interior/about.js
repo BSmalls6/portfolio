@@ -1,11 +1,7 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router} from "react-router-dom";
 import Header from "../../components/homepage/header";
-
 import Footer from "../../components/homepage/footer"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CardDeck from 'react-bootstrap/CardDeck';
-import Card from 'react-bootstrap/Card';
 import Navbar from 'react-bootstrap/NavBar';
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
@@ -15,9 +11,7 @@ import resume from '../../img/resume.pdf'
 
 export default class About extends Component {
     render() {
-        const sectionStyle ={
-
-        }
+       
         return (
 
             <div className='bigContainer'>

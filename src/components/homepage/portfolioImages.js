@@ -1,10 +1,8 @@
 
 import React, { Component } from 'react'
-import loungeImg from '../../img/storefront.png'
 import writingImg from '../../img/writingthumb.png'
 import favrimg from '../../img/favrimg.png'
-import budgetimg from '../../img/budget.png'
-import notesimg from '../../img/notes.png'
+
 import velleImg from '../../img/velleThumb.png'
 import blogThumb from '../../img/myblogpost.png';
 import wallThumb from '../../img/wallThumb.png';

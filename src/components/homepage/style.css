@@ -1,0 +1,32 @@
+.header {
+    background-color: #001D38;
+            padding: 5px;
+            padding-top: 0px;
+            top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#logo {
+    width: 100px;
+    margin: 0px
+}
+
+
+
+  .header--unfixed {
+    position: relative;
+    transform: translateY(0);
+  }
+  .header--scrolled {
+    transition: transform 200ms ease-in-out;
+  }
+  .header--unpinned {
+    position: fixed;
+    transform: translateY(-100%);
+  }
+  .header--pinned {
+    position: fixed;
+    transform: translateY(0%);
+  }

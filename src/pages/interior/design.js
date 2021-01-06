@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router} from "react-router-dom";
 import Header from "../../components/homepage/header";
 
 import Footer from "../../components/homepage/footer"
@@ -10,7 +9,6 @@ import Navbar from 'react-bootstrap/NavBar';
 import styleSheet from './style.css';
 import velleThumb from '../../img/velleThumb.png';
 import wallThumb from '../../img/wallThumbsmall.png';
-import littleThumb from '../../img/littleThumbsmall.png';
 import compassThumb from '../../img/compassThumbsmall.png';
 import favrThumb from '../../img/favrimgThumbs.png';
 import vidThumb from '../../img/writingthumbsmall.png';
@@ -19,18 +17,9 @@ import blogThumb from '../../img/myblogpostThumb.png';
 
 
 
-
-
-
-
-
-
-
 export default class Design extends Component {
     render() {
-        const sectionStyle ={
-
-        }
+        
         return (
 
             <div className='bigContainer'>
@@ -44,7 +33,7 @@ export default class Design extends Component {
             <section>
             <CardDeck>
   <Card style={styleSheet} className="cards">
-    <a href="https://velledental.com/" target='_blank' rel='nofollow'><Card.Img variant="top" src={velleThumb} className='image'  /></a>
+    <a href="https://velledental.com/" target='_blank' rel='nofollow noopener noreferrer'><Card.Img variant="top" src={velleThumb} className='image'  /></a>
     <div className="middle">
     <div className="text"><a href='www.velledental.com'>Visit Site</a></div>
   </div>
@@ -59,7 +48,7 @@ export default class Design extends Component {
     </Card.Footer>
   </Card>
   <Card style={styleSheet} className="cards">
-  <a href="https://farvbarter.herokuapp.com/" target='_blank' rel='nofollow'><Card.Img variant="top" src={favrThumb} className='image favrImg' /></a>
+  <a href="https://farvbarter.herokuapp.com/" target='_blank' rel='nofollow noopener noreferrer'><Card.Img variant="top" src={favrThumb} className='image favrImg' /></a>
     <Card.Body>
       <Card.Title>Favr</Card.Title>
       <Card.Text>
@@ -71,7 +60,7 @@ export default class Design extends Component {
     </Card.Footer>
   </Card>
   <Card style={styleSheet} className="cards">
-  <a href="https://vimeo.com/309792129" target='_blank' rel='nofollow'><Card.Img variant="top" src={vidThumb} className='image' /></a>
+  <a href="https://vimeo.com/309792129" target='_blank' rel='nofollow noopener noreferrer'><Card.Img variant="top" src={vidThumb} className='image' /></a>
     <Card.Body>
       <Card.Title>Animated Educational Videos</Card.Title>
       <Card.Text>
@@ -88,7 +77,7 @@ export default class Design extends Component {
             <section className='row2' style={styleSheet}>
             <CardDeck>
   <Card style={styleSheet} className="cards">
-  <a href="https://www.sesamecommunications.com/blog/the-best-shots-tech-specs-for-videos-of-practices/" target='_blank' rel='nofollow'><Card.Img variant="top" src={blogThumb} className='image'  /></a>
+  <a href="https://www.sesamecommunications.com/blog/the-best-shots-tech-specs-for-videos-of-practices/" target='_blank' rel='nofollow noopener noreferrer'><Card.Img variant="top" src={blogThumb} className='image'  /></a>
     <Card.Body>
       <Card.Title>Marketing-focused Blog Content</Card.Title>
       <Card.Text>
@@ -100,7 +89,7 @@ export default class Design extends Component {
     </Card.Footer>
   </Card>
   <Card style={styleSheet} className="cards">
-  <a href="https://www.statesborobraces.com/" target='_blank' rel='nofollow'><Card.Img variant="top" src={wallThumb} className='image' /></a>
+  <a href="https://www.statesborobraces.com/" target='_blank' rel='nofollow noopener noreferrer'><Card.Img variant="top" src={wallThumb} className='image' /></a>
     <Card.Body>
       <Card.Title>Wall Orthodontics</Card.Title>
       <Card.Text>
@@ -112,7 +101,7 @@ export default class Design extends Component {
     </Card.Footer>
   </Card>
   <Card style={styleSheet} className="cards">
-  <a href="https://www.compassdentalartscali.com/" target='_blank' rel='nofollow'><Card.Img variant="top" src={compassThumb} className='image' /></a>
+  <a href="https://www.compassdentalartscali.com/" target='_blank' rel='nofollow noopener noreferrer'><Card.Img variant="top" src={compassThumb} className='image' /></a>
     <Card.Body>
       <Card.Title>Compass Dental Arts</Card.Title>
       <Card.Text>
