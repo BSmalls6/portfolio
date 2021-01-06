@@ -27,7 +27,7 @@ export default class PortfolioImages extends Component {
                   <div className="title">
                     <h3>FavR</h3>
                     <h3>Development | Design</h3>
-                    <h3><a style={{color:"white"}} href='https://farvbarter.herokuapp.com/' target='_blank' rel="noopener noreferrer">Deployed</a> | <a style={{color:"white"}} href='https://github.com/CeeJtheDay/barterApp' target='_blank' rel="noopener noreferrer">Github</a></h3>
+                    <h3><a style={{color:"white"}} href='https://farvbarter.herokuapp.com/' target='_blank' rel="noopener nofollow noreferrer">Deployed</a> | <a style={{color:"white"}} href='https://github.com/CeeJtheDay/barterApp' target='_blank' rel="noopener noreferrer">Github</a></h3>
                     {/* <button><Favrpop>Learn More</Favrpop></button> */}
                   </div>
                 </div>

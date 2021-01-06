@@ -34,7 +34,7 @@ export default class Header extends Component {
     
 
 <Dropdown className="menu" style={styleSheet}>
-  <Dropdown.Toggle variant="secondary" id="dropdown-basic" style={divStyle}>
+  <Dropdown.Toggle variant="secondary" id="dropdown-basic" style={styleSheet}>
     Menu
   </Dropdown.Toggle>
 
@@ -42,6 +42,7 @@ export default class Header extends Component {
   <Dropdown.Item><Link to={'/about'}>About</Link></Dropdown.Item>
 
   <Dropdown.Item><Link to={'/portfolio'}>Porfolio</Link></Dropdown.Item>
+  <Dropdown.Item><Link to={'/contact'}>Contact</Link></Dropdown.Item>
 
   
 

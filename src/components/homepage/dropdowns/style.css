@@ -2,10 +2,20 @@
 
 
 .menu {
-  background-color: '#001D38';
-            color: '#0000ff';
-            right: '0';
-            left: 'auto';
-            font-family: "Muli";
-            margin-right: '10px'
+  background-color: #001D38;
+            color: #0000ff;
+            right: 0;
+            left: auto;
+            font-family: 'Muli';
+            margin-right: 10px;
+            border: 0;
+}
+
+.dropdown-item {
+  color: #fff
+}
+
+#dropdown-basic {
+background-color:  #001D38;  
+border: 0;
 }
